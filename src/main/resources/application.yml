@@ -1,0 +1,16 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,env
+
+# INFO ENDPOINT CONFIGURATION
+# https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto-properties-and-configuration
+info:
+  app:
+    name: @project.name@
+    description: @project.description@
+    version: @project.version@
+    encoding: @project.build.sourceEncoding@
+    java:
+      version: @java.version@
