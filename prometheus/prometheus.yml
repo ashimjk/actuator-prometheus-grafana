@@ -33,5 +33,5 @@ scrape_configs:
     #target end point. We are using the Docker, so local host will not work. You can change it with
     #localhost if not using the Docker.
     static_configs:
-      - targets: [ '192.168.0.110:8080' ]
-#      - targets: ['172.17.0.1:8080']
+#      - targets: [ '192.168.0.108:8080' ]
+      - targets: ['172.17.0.1:8080']
